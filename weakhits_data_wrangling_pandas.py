@@ -51,6 +51,3 @@ all_wk = all_wk.rename(columns={'FF':'Closest FF'})
 
 print(all_wk)
 print(all_wk.to_csv(sep='|'))
-
-
-## TO DO: read in and merge SC_FF mapping and order df by SC - easiest way to select an appropriate SC to analyse further
