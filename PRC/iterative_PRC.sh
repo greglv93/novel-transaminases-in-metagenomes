@@ -2,7 +2,9 @@
 
 '''
 Iterates through a list of HMM files and effectively runs an all vs all profile comparison
-Prerequisite: run ../Scripts/extract_funfamHMMs.py to create the necessary HMM library files
+Prerequisites: 
+	- run ../Scripts/extract_funfamHMMs.py to create the necessary HMM library files
+	- install the PRC program
 Next step: use ./clean_prc_table.py to create a cleaned table ready to be imported into Cytoscape for viewing of the network
 '''
 
